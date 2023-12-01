@@ -30,8 +30,8 @@ export const users = [
   },
   {
     _id: userIds[1],
-    firstName: "Steve",
-    lastName: "Ralph",
+    firstName: "Dominic",
+    lastName: "Apolo",
     email: "thataaa@gmail.com",
     password: "$!FEAS@!O)_IDJda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p3.jpeg",
@@ -46,8 +46,8 @@ export const users = [
   },
   {
     _id: userIds[2],
-    firstName: "Dominic",
-    lastName: "Apolo",
+    firstName: "Steve",
+    lastName: "Ralph",
     email: "someguy@gmail.com",
     password: "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     picturePath: "p4.jpeg",
@@ -146,8 +146,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[1],
-    firstName: "Steve",
-    lastName: "Ralph",
+    firstName: "Domonix",
+    lastName: "Apolo",
     location: "New York, CA",
     description: "Some really long random description",
     picturePath: "post1.jpeg",
@@ -167,8 +167,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[3],
-    firstName: "Whatcha",
-    lastName: "Doing",
+    firstName: "Aswan",
+    lastName: "Abdi",
     location: "Korea, CA",
     description:
       "Another really long random description. This one is longer than the previous one.",
